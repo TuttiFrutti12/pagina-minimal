@@ -3,40 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La mia pagina minimal</title>
-
-  <!-- Font Anton da Google Fonts -->
+  <title>Invito al pranzo di matrimonio</title>
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      height: 100vh;
-      background-color: #e6e6dd; /* beige */
-      color: #000000; /* nero */
+      height: 100%;
+      background-color: #e6e6dd;
+      color: #000;
       font-family: 'Anton', sans-serif;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       text-align: center;
+      flex-direction: column;
+      min-height: 100vh;
+      line-height: 1.6;
+      padding: 2rem;
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       letter-spacing: 2px;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0.5rem auto;
+    }
+
+    .iban {
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
     }
   </style>
 </head>
 
 <body>
-  <div>
-    <h1>Ciao mondo</h1>
-    <p>Questa è una pagina web minimalista</p>
-  </div>
+  <h1>Invito al pranzo di matrimonio</h1>
+  <p><strong>Domenica, 21 dicembre 2025 – 12:30</strong></p>
+
+  <p>Ci vediamo presso la chiesa sconsacrata di Caracalla, nel complesso Vignola Mattei, alle ore 12:30, dove si terrà la cerimonia civile.</p>
+
+  <p>Proseguiremo poi i festeggiamenti insieme a voi con un pranzo presso l’Osteria Circo, in Via dei Cerchi 77, a pochi passi dal luogo della cerimonia, alle ore 13:30.</p>
+
+  <p>Mettetevi comodi e godiamoci questa giornata speciale. Non mancate!</p>
+
+  <h2>Dove parcheggio?</h2>
+  <p>Sia in Via di Valle delle Camene, dove si terrà la cerimonia, sia in Via dei Cerchi, dove pranzeremo, si trova facilmente parcheggio.</p>
+  <p>I due luoghi non distano molto l’uno dall’altro, quindi, se vi piace camminare, potete lasciare l’auto dove preferite: dopo la cerimonia ci sposteremo tutti a piedi.</p>
+
+  <h2>Cosa mi metto?</h2>
+  <p>L’unione tra una cerimonia civile e un pranzo in un’osteria romana al Circo Massimo saprà ispirarvi.</p>
+  <p>Ricordate che sarà dicembre e potremmo camminare un po’, meglio vestirsi comodi e a strati!</p>
+
+  <h2>Cosa regalo?</h2>
+  <p>La vostra presenza è il nostro regalo più bello.</p>
+  <p>Ma, se desiderate comunque farci un pensiero, potete contribuire al nostro viaggio in Messico.</p>
+
+  <p class="iban">IBAN: <strong>xxxx</strong></p>
 </body>
 </html>
-
